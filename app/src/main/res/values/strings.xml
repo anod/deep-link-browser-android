@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">DeepLinkBrowser</string>
+    <string name="default_url">http://www.google.com</string>
+</resources>
