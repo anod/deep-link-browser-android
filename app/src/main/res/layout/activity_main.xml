@@ -13,10 +13,13 @@
         android:minHeight="?attr/actionBarSize"
         android:background="?attr/colorPrimary"
     >
-        <EditText
+        <org.droidparts.widget.ClearableEditText
+            android:id="@android:id/edit"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/default_url"
+            android:textColor="@color/colorAccent"
+            android:imeOptions="actionGo"
             android:inputType="textWebEditText"/>
     </android.support.v7.widget.Toolbar>
 
